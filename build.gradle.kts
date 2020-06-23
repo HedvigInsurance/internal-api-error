@@ -15,6 +15,9 @@ repositories {
 
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
+
+    api("org.springframework.cloud:spring-cloud-starter-openfeign:2.2.3.RELEASE")
+    api("com.fasterxml.jackson.core:jackson-databind:2.11.0")
 }
 
 tasks {
